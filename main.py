@@ -7,7 +7,7 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
                     level=logging.INFO)
 
 # Define your bot token
-TOKEN = 'YOUR_BOT_TOKEN'
+TOKEN = 6158242764:AAH7Ynhh-_Vartl_5NZksXFPI_9QSYzfw-w
 
 # Define the directory where files will be stored
 FILES_DIR = 'files'
