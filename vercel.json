@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "index.js", // Replace with the entry point of your bot
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "index.js" // Replace with the entry point of your bot
+    }
+  ],
+  "env": {
+    "TELEGRAM_TOKEN": "<YOUR_TELEGRAM_TOKEN>" // Replace with your Telegram Bot API token
+  }
+}
